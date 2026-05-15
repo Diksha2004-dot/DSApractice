@@ -15,7 +15,7 @@ public class InorderTraversal{
             return;
         }
         inorder(root.left);
-        System.out.print(root.val +" ");
+        System.out.print(root.val + " ");
         inorder(root.right);
     }
     public static void main(String[]args){
